@@ -1,6 +1,7 @@
 import React from "react";
 import './index.css'
 import Sataporn_Worasilpchai_Resume_June13 from '../Sataporn_Worasilpchai_Resume_June13.pdf'
+import profile_image from '../profile_picture.png'
 
 const Homepage =()=>{
 
@@ -21,7 +22,7 @@ const Homepage =()=>{
                 </h2>
 
                 <div className="main-info">
-                    <img className="mainimage" src = '../src/profile_picture.png' alt="profile image" style={{width: "200px", height:"200px"}}/>
+                    <img className="mainimage" src = {profile_image} alt="profile image" style={{width: "200px", height:"200px"}}/>
                     
                     <div class="intro">
                         <p>
